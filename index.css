@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+*{
+    margin:0;
+    padding:0;
+    /* outline:1.5px solid gray; */
+}
+body{
+    max-height: 450px;
+    font-family: 'Karla', sans-serif;
+    margin: 90px auto;
+    max-width: 700px;
+    background-color: rgb(240, 241, 243);
+}
+p{
+    line-height: 25px;
+    color:hsl(213, 9%, 77%);
+}
+h2{
+    color: hsl(179,62%,43%);
+    padding-bottom: 25px;
+
+}
+h3{
+    color: white;
+}
+button{
+    margin-top:25px ;
+    border-style: none;
+    border-radius: 4px;
+    padding: 15px 95px;
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+}
+.moneyBack{
+    margin-bottom: 10px;
+    color: hsl(71, 73%, 54%);
+}
+.flex{
+    width: 100%;
+    display: flex;
+}
+.left{
+    background-color:hsl(179, 62%, 43%);
+    padding: 30px;
+    width: 50%;
+    border-bottom-left-radius: 8px;
+}
+.right{
+    padding: 30px;
+    width: 50%;
+    background-color: hsl(187, 41%, 68%);
+    border-bottom-right-radius: 8px;
+}
+.top{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: white;
+    padding: 30px 
+}
+.secondP{
+    margin-top:15px;
+    color:hsl(205, 26%, 91%);
+}
+.thirdP{
+    margin-top: 20px;
+    color:hsl(214, 26%, 95%);
+}
+
+.perMonth{
+    color:hsl(202, 20%, 79%);
+}
+.price{
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 580;
+}
+.attribution { 
+    font-size: 11px; text-align: center;
+ }
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
